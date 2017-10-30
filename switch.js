@@ -56,10 +56,10 @@
             },
 
         ],
-        "newInstance": function (settings, newInstanceCallback) {
-            newInstanceCallback(new wswitch(settings));
-        }
-
+	
+        "newInstance": function (settings, newInstanceCallback, updateCallback) {
+			processNewInstance("switch_plugin", "52b1454985fd386ebb000006", settings, newInstanceCallback, updateCallback);
+		}
     });
 
      freeboard.addStyle ('.floating-box',"display: inline-block; vertical-align: top; width: 78px; background-color: #222;margin-top: 10px; margin-right: 5px;");
