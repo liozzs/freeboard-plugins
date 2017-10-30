@@ -18,41 +18,41 @@
    
     
     freeboard.loadWidgetPlugin({
-        type_name: "switch_plugin",
-        display_name: "Switch",
-        description : "Interactive on-off switch",
-        settings: [
+        "type_name": "switch_plugin",
+        "display_name": "Switch",
+        "description" : "Interactive on-off switch",
+        "settings": [
             {
-                name: "title",
-                display_name: "Title",
-                type: "text"
+                "name": "title",
+                "display_name": "Title",
+                "type": "text"
             },
             {
-                name: "value",
-                display_name: "Value",
-                type: "calculated"
+                "name": "value",
+                "display_name": "Value",
+                "type": "calculated"
             },
             {
-                name: "urlOn",
-                display_name: "url On ",
-                type: "calculated"
+                "name": "urlOn",
+                "display_name": "url On ",
+                "type": "calculated"
             },
             {
-                name: "urlOff",
-                display_name: "url Off ",
-                type: "calculated"
+                "name": "urlOff",
+                "display_name": "url Off ",
+                "type": "calculated"
             },
             {
-                name: "on_text",
-                display_name: "On Text",
-                type: "text",
-                default_value: 'On'
+                "name": "on_text",
+                "display_name": "On Text",
+                "type": "text",
+                "default_value": 'On'
             },
             {
-                name: "off_text",
-                display_name: "Off Text",
-                type: "text",
-                default_value: 'Off'
+                "name": "off_text",
+                "display_name": "Off Text",
+                "type": "text",
+                "default_value": 'Off'
             },
 
         ],
