@@ -56,9 +56,10 @@
             },
 
         ],
-        newInstance: function (settings, newInstanceCallback) {
+        "newInstance": function (settings, newInstanceCallback) {
             newInstanceCallback(new wswitch(settings));
         }
+
     });
 
      freeboard.addStyle ('.floating-box',"display: inline-block; vertical-align: top; width: 78px; background-color: #222;margin-top: 10px; margin-right: 5px;");
