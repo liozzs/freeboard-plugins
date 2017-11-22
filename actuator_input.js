@@ -92,7 +92,7 @@
             var new_val = !isOn
             this.onCalculatedValueChanged('value', new_val);
 
-            var input = prompt(currentSettings.input_text);
+            var input = prompt(currentSettings.inputText);
 
             url = ((new_val) ? currentSettings.urlOn : currentSettings.urlOff) + input;
             if (_.isUndefined(url) || input == "")
